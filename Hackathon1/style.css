@@ -10,6 +10,7 @@ html{
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .sidebar{
@@ -27,6 +28,7 @@ html{
     align-items: center;
     flex-direction: column;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 #profile-image{
@@ -136,6 +138,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    flex-wrap: wrap;
 
 }
 
@@ -214,7 +217,7 @@ u{
     position: absolute;
     top: 100vh;
     width: 70vw;
-    /*overflow: hidden;*/
+    overflow: hidden;
     
 
     /*padding: 30px;*/
@@ -246,6 +249,7 @@ u{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    flex-wrap: wrap;
 
 
 }
@@ -262,11 +266,13 @@ u{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    flex-wrap: wrap;
 }
 .details-1{
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    flex-wrap: wrap;
 }
 
 .facts-section{
@@ -288,6 +294,7 @@ u{
     display: flex;
     flex-direction: column;
     margin-left:10px;
+    flex-wrap: wrap;
 }
 #skills{
     box-sizing: border-box;
@@ -316,6 +323,7 @@ u{
     display: flex;
 
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .skill {
@@ -338,6 +346,7 @@ u{
 .s-text{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .resume-section{
@@ -353,6 +362,7 @@ u{
     display: flex;
     justify-content: space-between;
     font-size: 3vh;
+    flex-wrap: wrap;
 }
 
 .resume-content{
@@ -361,6 +371,7 @@ u{
     justify-content: space-evenly;
     margin-right: 0vw;
 
+
 }
 .resume-content-left{
     width: 60vw;
@@ -368,6 +379,7 @@ u{
 .resume-content-left-1{
     display: flex;
     gap: 0.9rem;
+
 }
 
 .resume-content-list-1{
@@ -376,6 +388,7 @@ u{
 .resume-content-left-2{
     display: flex;
     gap: 0.9rem;
+
 }
 #resume-span{
 
@@ -395,6 +408,7 @@ u{
 .resume-content-left-3{
     display: flex;
     gap: 0.9rem;
+
 }
 #resume-span-2{
 
@@ -413,6 +427,7 @@ u{
 }
 .resume-content-right{
     display: flex;
+
 }
 .resume-content-right-1{
     display: flex;
@@ -454,6 +469,7 @@ u{
     display: flex;
     flex-direction: row;
     width: 100vw; /* Set the width to 100vw */
+    flex-wrap: wrap;
 }
 
 
@@ -475,6 +491,7 @@ u{
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .portfolio-filter{
@@ -506,6 +523,7 @@ u{
 .portfolio-filter-images{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .portfolio-filter-images-image{
     width:20vw;
@@ -514,6 +532,7 @@ u{
 .portfolio-filter-images-1{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .services-section{
@@ -533,19 +552,23 @@ u{
     flex-direction: column;
     margin-left: 30px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 .services-content-one{
     display: flex;
+    flex-wrap: wrap;
 }
 .services-content-two{
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .services-content-1{
     display: flex;
     flex: 1;
     justify-content: space-evenly;
+
 }
 
 .services-content-2{
@@ -553,6 +576,7 @@ u{
     flex: 1;
     margin-top: 20px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .testimonial-section{
     margin-top: 80px;
@@ -568,6 +592,7 @@ u{
     display: flex;
     margin-left: 30px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .testimonial-message-1{
@@ -586,6 +611,7 @@ u{
     gap: 5rem;
     overflow: auto;
     white-space: nowrap;
+    flex-wrap: wrap;
 
 }
 .testimonial-peoples-1{
@@ -594,6 +620,7 @@ u{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 #testimonialpeople1,#testimonialpeople2,#testimonialpeople3,#testimonialpeople4,#testimonialpeople5{
@@ -613,6 +640,7 @@ u{
 
 .contact-content{
     display: flex;
+    flex-wrap: wrap;
 }
 .contact-content-left{
     display: flex;
@@ -624,6 +652,7 @@ u{
     margin-left: 30px;
     width: 33vw;
     border-radius: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -634,10 +663,12 @@ u{
     margin-left: 30px;
     margin-top: 20px;
     gap: 0.9rem;
+    flex-wrap: wrap;
 }
 .location,.email,.call{
     display: flex;
     gap: 0.9rem;
+    flex-wrap: wrap;
 }
 .location-map{
     margin-left: 30px;
@@ -661,10 +692,12 @@ iframe{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .form-part-1-two{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .form-part-2-one{
@@ -672,27 +705,32 @@ iframe{
     display: flex;
     justify-content: flex-start;
     margin-left: 35px;
+    flex-wrap: wrap;
 }
 .form-part-2-two{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .form-part-3-one{
     margin-top: 20px;
     display: flex;
     justify-content: flex-start;
     margin-left: 15px;
+    flex-wrap: wrap;
 }
 .form-part-3-two{
     display: flex;
     justify-content: flex-start;
     margin-left: 15px;
+    flex-wrap: wrap;
 }
 
 .submit-button{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 #submit{
@@ -727,13 +765,15 @@ iframe{
     animation: animate 4s linear forwards;
     overflow: hidden;
     color: white;
-    left: 88vh;
-    top: 44.5vh;
+    /*left: 88vh;*/
+    /*top: 44.5vh;*/
     font-size: 4vh;
     font-weight: 500;
     height: 4vh;
     width: 10vw;
     animation-iteration-count: infinite;
+    flex-wrap: wrap;
+
 
 }
 
@@ -746,6 +786,151 @@ iframe{
         width: 10vw;
     }
 }
+
+
+@media (max-height: 668px) {
+    .aside-footer{
+        display: none;
+    }
+}
+
+@media (max-height: 533px) {
+    #Contact-Text{
+        display: none;
+    }
+    #Contact{
+        display: none;
+    }
+}
+
+@media (max-height: 482px) {
+    #Services-Text{
+        display: none;
+    }
+    #Services{
+        display: none;
+    }
+}
+
+@media (max-height: 419px) {
+    #Portfolio-Text{
+        display: none;
+    }
+    #Portfolio{
+        display: none;
+    }
+}
+
+@media (max-height: 364px) {
+    #Resume-Text{
+        display: none;
+    }
+    #Resume{
+        display: none;
+    }
+}
+@media (max-height: 308px) {
+    #About-Text{
+        display: none;
+    }
+    #About{
+        display: none;
+    }
+}
+
+@media (max-height: 243px) {
+    #Home-Text{
+        display: none;
+    }
+    #Home{
+        display: none;
+    }
+}
+
+@media (max-width: 1187px){
+    .form-part-2-two>input{
+        width: 20vw;
+    }
+}
+
+@media (max-width: 699px){
+    .message-text{
+        font-size: 1.2vh;
+    }
+}
+
+@media (max-width: 608px){
+    #profile-image{
+        display: none;
+    }
+
+}
+
+@media (max-width: 584px){
+    .message-text{
+        font-size: 1vh;
+    }
+}
+
+
+@media (max-width: 584px){
+    .message-text{
+        font-size: 0.9vh;
+    }
+}
+
+@media (max-width: 398px){
+    .message-text{
+        font-size: 0.8vh;
+    }
+}
+
+@media (max-width: 576px){
+    .form-part-1-two>input{
+        width: 20vw;
+    }
+}
+
+
+@media (max-width: 1200px){
+    iframe{
+        height: 20vh;
+        width: 15vw;
+    }
+}
+
+@media (max-width: 880px){
+    .myemail{
+        font-size: 1vh;
+    }
+}
+
+@media (max-width: 584px){
+    .city{
+        font-size: 0.7vh;
+    }
+    .myemail{
+        font-size: 0.7vh;
+    }
+}
+@media (max-width: 530px){
+    .myemail{
+        font-size: 0.5vh;
+    }
+}
+@media (max-width: 411px){
+    .phonenumber{
+        font-size: 0.9vh;
+    }
+}
+
+@media (max-width: 360px){
+    .abc{
+        font-size: 0.9vh;
+    }
+}
+
+
 
 
 /*------------------------------------------------------------------*/
